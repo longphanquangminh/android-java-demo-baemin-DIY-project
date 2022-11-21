@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+<ImageView
+    android:id="@+id/imv_photo"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/noodle_bun_dau_a_chanh"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_rectangle_24"
+                android:layout_gravity="top"/>
+            <TextView
+                android:id="@+id/txt_placeName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txt_dishName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dish"
+            android:gravity="left"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_ratingValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating: "/>
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_baseline_star_24"/>
+            <TextView
+                android:id="@+id/txt_ratingCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 "/>
+
+        </LinearLayout>
+"
+    </LinearLayout>
+
+</LinearLayout>
